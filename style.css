@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #ffd6e7, #f2ddff);
+}
+
+.card {
+  width: 90%;
+  max-width: 420px;
+  padding: 35px 22px;
+  text-align: center;
+  background: white;
+  border-radius: 28px;
+  box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+}
+
+.emoji {
+  font-size: 60px;
+}
+
+h1 {
+  color: #ff4f87;
+  font-size: 30px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 25px;
+  height: 80px;
+  position: relative;
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 14px 25px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#yes {
+  background: #ff5f91;
+  color: white;
+}
+
+#no {
+  position: absolute;
+  background: #eeeeee;
+  color: #555;
+  left: 55%;
+}
+
+.hidden {
+  display: none;
+}
